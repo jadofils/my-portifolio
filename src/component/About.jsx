@@ -1,15 +1,20 @@
 import React from 'react';
 import { FaCode, FaServer, FaDatabase } from 'react-icons/fa';
-import photo from './asset/denis2.JPG'
+import photo from './asset/jado.jpg'
 
 
 function About() {
+const touchPhoto=(()=>{
+ 
+
+})
+
   return (
     <section id="about" className="my-5">
       <h3 className="section-title">About Me</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
         <div className="flex justify-center ">
-          <img src={photo} alt="denis" className="w-64 h-64 rounded-full object-cover shadow-lg" />
+          <img src={photo}  onMouseOver={ touchPhoto} alt="Jado Fils" className="w-64 h-64 rounded-full object-cover shadow-lg" />
         </div>
         <div>
           <p className="text-lg mb-6 leading-relaxed">

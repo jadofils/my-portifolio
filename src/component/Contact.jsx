@@ -43,15 +43,15 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail} className="w-full md:w-1/2 card p-6">
           <div className="mb-4">
             <label htmlFor="name" className="block mb-2 font-medium">Name</label>
-            <input type="text" id="name" name="name" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+            <input type="text" id="name" name="name" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"  />
           </div>
           <div className="mb-4">
             <label htmlFor="email" className="block mb-2 font-medium">Email</label>
-            <input type="email" id="email" name="email" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+            <input type="email" id="email" name="email" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"  />
           </div>
           <div className="mb-4">
             <label htmlFor="message" className="block mb-2 font-medium">Message</label>
-            <textarea id="message" name="message" rows="4" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+            <textarea id="message" name="message" rows="4" className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" ></textarea>
           </div>
           <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors duration-300">Send Message</button>
         </form>
